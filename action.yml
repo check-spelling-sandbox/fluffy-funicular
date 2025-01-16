@@ -1,0 +1,10 @@
+name: "Test Action 3"
+description: "Test GitHub Marketplace validation"
+
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        : Hello
+        echo 'Hello!'
